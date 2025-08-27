@@ -1,20 +1,17 @@
-// แบบ commonJS
+// สร้างแบบ CommonJS
+const sauXX = 'Southest Asia University'
 
-// console.log(HI)
+let scoreXX = 999
 
-const sauXXX = `Southes Asia University`
-
-let scoreXXX = 999
-
-function sumNumberXXX(n1,n2){
+function sumNumberXX(n1, n2){
     return n1 + n2
 }
 
-const squareAreaXXX = (wl,lo) => {
-    return wl * lo
+const squareAreaXX = (wi, lo) => {
+    return wi * lo
 }
 
-module .exports . sauXXX= sauXXX
-module .exports . scoreXXX= scoreXXX
-module .exports . sumNumberXXX= sumNumberXXX
-module .exports . squareAreaXXX= squareAreaXXX
+module.exports.sauXX = sauXX
+module.exports.scoreXX = scoreXX
+module.exports.sumNumberXX = sumNumberXX
+module.exports.squareAreaXX = squareAreaXX
